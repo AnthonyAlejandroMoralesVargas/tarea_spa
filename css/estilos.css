@@ -1,0 +1,80 @@
+/* Reseteo general */
+body {
+    margin: 0px;
+}
+
+.header {
+    height: 70px;
+    background: hsl(62, 32%, 49%);
+}
+
+.barra {
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    padding-left: 70px;
+    height: 70px;
+    align-items: center;
+}
+
+.barra ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.barra ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.barra ul li a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.barra ul li a:hover {
+    color: #FFFF00;
+}
+
+.configuracion {
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.configuracion .user {
+    margin-right: 10px;
+}
+.configuracion .MiCuenta {
+    align-items: center;
+    margin-right: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+}
+
+.configuracion .idioma {
+    display: flex;
+    align-items: center;
+}
+
+.configuracion .idioma .ES {
+    font-family: 'Inter', sans-serif;
+    margin-right: 10px;
+    font-size: 0.7rem;
+}
+
+.configuracion .idioma .ES {
+    font-family: 'Inter', sans-serif;
+    margin-right: 10px;
+}
+
+.configuracion .idioma .flag {
+    margin-right: 10px;
+}
+.configuracion .idioma .arrow {
+    margin-right: 10px;
+}
