@@ -6,6 +6,7 @@ body {
 .header {
     height: 70px;
     background: hsl(62, 32%, 49%);
+
 }
 
 .barra {
@@ -49,6 +50,7 @@ body {
 .configuracion .user {
     margin-right: 10px;
 }
+
 .configuracion .MiCuenta {
     align-items: center;
     margin-right: 20px;
@@ -75,6 +77,37 @@ body {
 .configuracion .idioma .flag {
     margin-right: 10px;
 }
+
 .configuracion .idioma .arrow {
     margin-right: 10px;
+}
+
+.principal {
+    position: relative;
+    overflow: hidden;
+}
+
+.principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-principal {
+    position: absolute;
+    top: 206px;
+    left: 478px;
+    transform: translate(-100%, -50%);
+    font-size: 96px;
+    font-family: 'Romanesco', cursive;
+}
+
+.texto-secundario {
+    position: absolute;
+    top: 327px;
+    left: 575px;
+    transform: translate(-70%, -50%);
+    font-family: 'Inter' ,sans-serif;
+    font-weight: 600;
+    font-size: 32px;
 }
