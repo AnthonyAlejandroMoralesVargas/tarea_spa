@@ -90,7 +90,7 @@ body {
 .principal img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    display: block;
 }
 
 .texto-principal {
@@ -110,4 +110,64 @@ body {
     font-family: 'Inter' ,sans-serif;
     font-weight: 600;
     font-size: 32px;
+}
+.agenda {
+    height: 100px;
+    display: flex;
+    background: #F2F6F6;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    height: 100px;
+    padding-left: 65px;
+}
+.reserva{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+} 
+.codigo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reserva label{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.codigo label {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 35px;
+}
+
+.reserva input{
+    height: 55px;
+    width: 275px;
+    border: solid #F2F6F6;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+} 
+.codigo input {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #F2F6F6;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.codigo input::placeholder {
+    color: #cfc8c8;
 }
