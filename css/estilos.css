@@ -53,9 +53,9 @@ body {
 
 .configuracion .MiCuenta {
     align-items: center;
-    margin-right: 20px;
+    margin-right: 40px;
     font-family: 'Inter', sans-serif;
-    font-size: 0.7rem;
+    font-size: 14px;
 }
 
 .configuracion .idioma {
@@ -66,7 +66,7 @@ body {
 .configuracion .idioma .ES {
     font-family: 'Inter', sans-serif;
     margin-right: 10px;
-    font-size: 0.7rem;
+    font-size: 14px;
 }
 
 .configuracion .idioma .ES {
@@ -80,6 +80,7 @@ body {
 
 .configuracion .idioma .arrow {
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .principal {
@@ -107,10 +108,11 @@ body {
     top: 327px;
     left: 575px;
     transform: translate(-70%, -50%);
-    font-family: 'Inter' ,sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 32px;
 }
+
 .agenda {
     height: 100px;
     display: flex;
@@ -123,18 +125,20 @@ body {
     height: 100px;
     padding-left: 65px;
 }
-.reserva{
+
+.reserva {
     display: flex;
     align-items: center;
     gap: 30px;
-} 
+}
+
 .codigo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.reserva label{
+.reserva label {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
@@ -147,7 +151,7 @@ body {
     padding-left: 35px;
 }
 
-.reserva input{
+.reserva input {
     height: 55px;
     width: 275px;
     border: solid #F2F6F6;
@@ -156,7 +160,8 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     color: black;
-} 
+}
+
 .codigo input {
     height: 55px;
     width: 200px;
@@ -170,4 +175,214 @@ body {
 
 .codigo input::placeholder {
     color: #cfc8c8;
+}
+
+/*Seccion Cards Reservas*/
+
+
+.card-contenedor {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+}
+/*Masaje de pies*/
+.card-masajepies {
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.card-masajepies .titulo-card1 {
+    padding: 15px 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: hsl(62, 32%, 49%);
+    border-radius: 15px 15px 0px 0px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.card-masajepies .imagen-masajepies {
+    width: 350px;
+    height: 265px;
+}
+
+.card-masajepies .imagen-masajepies img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-masajepies .descripcion {
+    margin: 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.card-masajepies .costo-reserva {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-masajepies .costo-reserva .costo{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.card-masajepies .button-reservar {
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 10px 40px;
+}
+
+.card-masajepies .button-reservar a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-masajepies .button-reservar:hover {
+    background: #384001;
+}
+
+/*Masaje relajante*/
+.card-masajerelajante {
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.card-masajerelajante .titulo-card2 {
+    padding: 15px 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: hsl(62, 32%, 49%);
+    border-radius: 15px 15px 0px 0px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.card-masajerelajante .imagen-masajerelajante {
+    width: 350px;
+    height: 265px;
+}
+
+.card-masajerelajante .imagen-masajerelajante img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-masajerelajante .descripcion-card2 {
+    margin: 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.card-masajerelajante .costo-reserva-card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-masajerelajante .costo-reserva-card2 .costo-card2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.card-masajerelajante .button-reservar-card2 {
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 10px 40px;
+}
+
+.card-masajerelajante .button-reservar-card2 a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-masajerelajante .button-reservar-card2:hover {
+    background: #384001;
+}
+
+/*Masaje con bambú*/
+.card-masajebambu {
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.card-masajebambu .titulo-card3 {
+    padding: 15px 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: hsl(62, 32%, 49%);
+    border-radius: 15px 15px 0px 0px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.card-masajebambu .imagen-masajebambu {
+    width: 350px;
+    height: 265px;
+}
+
+.card-masajebambu .imagen-masajebambu img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-masajebambu .descripcion-card3 {
+    margin: 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.card-masajebambu .costo-reserva-card3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-masajebambu .costo-reserva-card3 .costo-card3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.card-masajebambu .button-reservar-card3 {
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 10px 40px;
+}
+
+.card-masajebambu .button-reservar-card3 a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-masajebambu .button-reservar-card3:hover {
+    background: #384001;
 }
