@@ -187,6 +187,7 @@ body {
     gap: 134px;
     justify-content: center;
 }
+
 /*Masaje de pies*/
 .card-masajepies {
     width: 350px;
@@ -221,13 +222,14 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
+
 .card-masajepies .costo-reserva {
-   display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.card-masajepies .costo-reserva .costo{
+.card-masajepies .costo-reserva .costo {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -385,4 +387,230 @@ body {
 
 .card-masajebambu .button-reservar-card3:hover {
     background: #384001;
+}
+
+/*Seccion Suscripciones*/
+.suscripciones {
+    height: 770px;
+    background: #F2F6F6;
+}
+
+.suscripciones .titulo-seccion {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 40px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripciones .contenedor {
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+}
+
+/*Suscripcion gold*/
+.suscripcion-gold {
+    width: 310px;
+}
+
+.suscripcion-gold .header-gold {
+    display: flex;
+    justify-content: center;
+}
+
+
+.suscripcion-gold .icon-gold {
+    width: 255px;
+    height: 255px;
+    border: 10px solid #4A4A00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.icon-circle img {
+    width: 233px;
+    height: 233px;
+}
+
+.titulo-gold {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.suscripcion-gold .button-gold {
+    margin-top: 30px;
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripcion-gold .button-gold a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.suscripcion-gold .button-gold:hover {
+    background: #384001;
+}
+
+.suscripcion-gold .suscripcion-detalles ul {
+    padding-left: 90px;
+    margin-top: 25px;
+}
+
+.suscripcion-gold .suscripcion-detalles ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+/*Suscripcion premium*/
+.suscripcion-premium {
+    width: 310px;
+}
+
+.suscripcion-premium .header-premium {
+    display: flex;
+    justify-content: center;
+}
+
+
+.suscripcion-premium .icon-premium {
+    width: 255px;
+    height: 255px;
+    border: 10px solid #4A4A00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.icon-circle img {
+    width: 233px;
+    height: 233px;
+}
+
+.titulo-premium {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.suscripcion-premium .button-premium {
+    margin-top: 30px;
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripcion-premium .button-premium a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.suscripcion-premium .button-premium:hover {
+    background: #384001;
+}
+
+.suscripcion-premium .suscripcion-detalles ul {
+    padding-left: 90px;
+    margin-top: 25px;
+}
+
+.suscripcion-premium .suscripcion-detalles ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+/*Suscripcion PLATE*/
+.suscripcion-plate {
+    width: 310px;
+}
+
+.suscripcion-plate .header-plate {
+    display: flex;
+    justify-content: center;
+}
+
+
+.suscripcion-plate .icon-plate {
+    width: 255px;
+    height: 255px;
+    border: 10px solid #4A4A00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.icon-circle img {
+    width: 233px;
+    height: 233px;
+}
+
+.titulo-plate {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.suscripcion-plate .button-plate {
+    margin-top: 30px;
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripcion-plate .button-plate a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.suscripcion-plate .button-plate:hover {
+    background: #384001;
+}
+
+.suscripcion-plate .suscripcion-detalles ul {
+    padding-left: 90px;
+    margin-top: 25px;
+}
+
+.suscripcion-plate .suscripcion-detalles ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 5px 0px;
 }
